@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width", initial-scale="1.0">
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Temperature Converter</h1>
+<table align="center">
+<tr>
+<td>
+<lable>Conversion from Celsius to Fahrenheit:-</lable>
+</td>
+</tr>
+<tr>
+<td style="padding-left="30px">
+<input id="celsius" type="text" placeholder="Enter Celsius"><br>
+</td>
+<td>
+<buttom class="button" onclick="convertFahrenheit()">Convert To Fahrenheit</button>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="text" id="fah" placeholder="Temperature in Fahrenheit"><br>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+</td>
+</tr>
+<tr>
+<td>
+<lable>Conversion from Fahrenheit to Celsius:-</lable>
+</td>
+<tr>
+</tr>
+<td style="padding-left="30px">
+<input id="fahrenheit" type="text" placeholder="Enter Fahrenheit"><br>
+</td>
+<td>
+<buttom class="button" onclick="convertCelsius()">Convert To Celsius</button>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="text" id="Cel" placeholder="Temperature in Celsius"><br>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<button class="button" onclick="reset()">Reset</button>
+</td>
+</tr>
+</table>
+</div>
+<script src="custom.js"></script>
+</body>
+</html>
